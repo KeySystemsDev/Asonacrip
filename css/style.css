@@ -1,0 +1,50 @@
+header.masthead {
+    background-image: url(../img/4.jpg);
+}
+.bg-primary-2{
+    background: rgba(221, 221, 221, 0.25);
+}
+.bg-primary-3{
+    background: #fff;
+}
+.fw7{    
+    font-weight: 700;
+}
+.text-c-asona{
+        color: #3c3c3c;
+}
+a:hover{
+    color: #7b7473;
+}
+.hr-3{
+        border-color: rgb(103, 103, 103);
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color: #7b7473!important;
+    background-color: transparent;
+}
+.text-primary {
+    color: #3c3c3c!important;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+    #mainNav.navbar-shrink .navbar-brand {
+        color: #212121;
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #7b7473;
+    }
+    #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+        color: #7b7473;
+    }
+}
