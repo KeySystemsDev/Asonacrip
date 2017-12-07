@@ -1,13 +1,19 @@
 header.masthead {
     background-image: url(../img/4.jpg);
 }
+a{
+  color: #fff;
+}
+.p2{
+  color: #fff;
+}
 .bg-primary-2{
     background: rgba(221, 221, 221, 0.25);
 }
 .bg-primary-3{
     background: #fff;
 }
-.fw7{    
+.fw7{
     font-weight: 700;
 }
 .text-c-asona{
@@ -19,6 +25,15 @@ a:hover{
 .hr-3{
         border-color: rgb(103, 103, 103);
 }
+.creditos{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background: #245c73;
+    margin-bottom: 0px;
+    text-align: -webkit-center;
+}
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
     color: #7b7473!important;
@@ -27,8 +42,17 @@ a:hover{
 .text-primary {
     color: #3c3c3c!important;
 }
-
-
+.resposive-img {
+    max-width: 100%;
+}
+.foter{
+  padding: 20px;
+  background: #3c3c3c;
+  text-align: center;
+}
+.pt50{
+  padding-top: 50px;
+}
 
 
 
